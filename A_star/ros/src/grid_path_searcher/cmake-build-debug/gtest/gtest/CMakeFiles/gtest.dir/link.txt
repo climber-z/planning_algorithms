@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgtest.so -o libgtest.so "CMakeFiles/gtest.dir/src/gtest-all.cc.o"   -L/home/zxy/code_motion_planner_raw/hw_2/ros/src/grid_path_searcher/cmake-build-debug/gtest/gtest/src  -Wl,-rpath,/home/zxy/code_motion_planner_raw/hw_2/ros/src/grid_path_searcher/cmake-build-debug/gtest/gtest/src -lpthread 
