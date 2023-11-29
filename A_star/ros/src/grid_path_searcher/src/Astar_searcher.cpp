@@ -185,7 +185,8 @@ double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
     *
     *
     */
-    double eps = 1; // Tie breaker coefficient, 1 as defualt
+    double p = 0;
+    double eps = 1 + p; // Tie breaker coefficient, 1 as defualt
 
     double diff_x = node1->coord.x() - node2->coord.x();
     double diff_y = node1->coord.y() - node2->coord.y();
