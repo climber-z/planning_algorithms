@@ -8,5 +8,8 @@
 
 Tips: Remove the loop of choose parent and rewire then it will convert back into rrt algorithm.
 
-## The figure shows rrt_star plan result:
-![](https://github.com/climber-z/planning_algorithms/blob/main/rrt_star/ros/img/Screenshot%20from%202023-11-29%2007-29-00.png)
+## rrt plan result:
+![](https://github.com/climber-z/planning_algorithms/blob/main/rrt_star/ros/img/rrt.png)
+
+## rrt_star plan result:
+![](https://github.com/climber-z/planning_algorithms/blob/main/rrt_star/ros/img/rrt_star.png)
